@@ -28,7 +28,7 @@ jobs:
 
   test_reusable:
     name: test for 3172395 with reusable workflow
-    uses: codymaust/3172395-reusable-workflows/.github/workflows/reusable-1.yml@main
+    uses: codymaust/3172395-reusable-workflows/.github/workflows/reusable-1.yml@v1
     with:
       environment: dev
       # ref: ${{ github.ref }} # TODO: testing to see if this is related
